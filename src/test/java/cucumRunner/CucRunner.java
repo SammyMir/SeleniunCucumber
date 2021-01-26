@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
    features="src\\main\\resources\\Features",
      glue="step_definitions",
 	dryRun=false,	
-	monochrome=true	
+	monochrome=true,	
+	tags="Login2"
 		)
 public class CucRunner {
   
